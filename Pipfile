@@ -4,9 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flow = {path = "./flow"}
 numpy = "*"
-matplotlib = "==3.5.0"
+matplotlib = "*"
 pyaml = "*"
 sacred = "*"
 pymongo = "*"
@@ -14,14 +13,16 @@ sshtunnel = "*"
 networkx = "*"
 lxml = "*"
 pyglet = "*"
-opencv-python = "*"
+opencv-python = "==4.5.3.56"
 imutils = "*"
 scipy = "*"
 torch = "==1.8.1"
 stable-baselines3 = "*"
+psutil = "*"
+pathos = "*"
 
 [dev-packages]
 ipykernel = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.6"
